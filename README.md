@@ -1,2 +1,2 @@
 # bmkg-latest-earthquake
-Package to get information latest earth quake on Indonesia, data source from https://www.bmkg.go.id/
+This package will get the latest earthquake (Indonesia) from https://www.bmkg.go.id/  BMKG | Meteorological, Climatological, and Geophysical Agency
