@@ -1,5 +1,5 @@
 [project]
-name = "latest_earth_quake_Indonesia"
+name = "latest_earth_quake_Indonesia_chatur"
 version = "0.0.1"
 authors = [
   { name="Chatur Agus Priyono", email="chatur.agus.priyono@gmail.com" },
