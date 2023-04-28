@@ -41,7 +41,7 @@ Dirasakan : Dirasakan (Skala MMI): II Aceh Besar, II Banda Aceh
 
         i = 0
         for res in result:
-            print(i, res)
+            # print(i, res)
             if i == 1 :
                 magnitudo = res.text
             elif i== 2 :
