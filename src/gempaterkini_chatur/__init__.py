@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+description = 'To get the latest earathquake in Indonesia from BMKG.go.ig'
 
 def ekstrasi_data():
     """
