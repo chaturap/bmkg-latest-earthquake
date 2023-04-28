@@ -20,15 +20,15 @@ Dirasakan : Dirasakan (Skala MMI): II Aceh Besar, II Banda Aceh
         return None
 
 
-    print(content)
-    print(content.status_code)
+    #print(content)
+    #print(content.status_code)
     if content.status_code == 200:
         #print(content.text)
 
         soup = BeautifulSoup(content.text, 'html.parser')
         result = soup.find('div', {'class': 'col-md-6 col-xs-6 gempabumi-detail no-padding'})
         result = result.findChildren('li')
-        print(result)
+        #print(result)
 
         magnitudo = None
         kedalaman = None
@@ -63,7 +63,6 @@ Dirasakan : Dirasakan (Skala MMI): II Aceh Besar, II Banda Aceh
         tanggal = tanggal.text.split(', ')[0]
 
         print(title.string)
-        #print(soup.prettify())
 
         hasil = dict()
         hasil['tanggal'] = tanggal
